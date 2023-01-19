@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "13099196"))
-API_HASH = getenv("API_HASH", "ff107d8d9f9ce3581e66e3789824a4d6")
+API_ID = int(getenv("API_ID", "29915811"))
+API_HASH = getenv("API_HASH", "3ad9b9a829551f09a7df398317fa8a96")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5590329646:AAE_LvkfGN5zL8VaQMSqC5d2q7fC_tK2t-E")
+BOT_TOKEN = getenv("BOT_TOKEN", "5967455775:AAGbrgqq3EcbV2Pwc2ASWbFuPVL9_e0_9yM")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://venomxspam097:a5t0d6w&@cluster0.zoh6lpb.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://user:pass@cluster0.lhngw5b.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "5400")
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001734555079"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-867667623"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐈𝛕ᷟ͢𝚣⃪ꙴ ⋆‌⃝ǫᴜᴇᴇɴ𓃭 ⃟ᴍᴜsɪᴄ⛦⃕͜༆")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music_assistant_of_vineet")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5956803759").split())
+    map(int, getenv("OWNER_ID", "5904623381").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -40,12 +40,12 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-GIT_TOKEN = getenv("GIT_TOKEN", "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")
+GIT_TOKEN = getenv("GIT_TOKEN", "")
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/katil_bots")
+    "SUPPORT_CHANNEL", "https://t.me/balatann")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/katilsupport")
+    "SUPPORT_GROUP", "https://t.me/balatann")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
