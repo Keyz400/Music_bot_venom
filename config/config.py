@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQBjzN3WdDjra1LACMHNCxit53f9VnaFMnZaQPHPj3tPorAgNWnw8dMn5ky52XsPs3jMUdPeRSjA56m772YNoB35x5XEH_caml4ymIA1mRefozsFtUpwobcT8wz2UW6kU7Gn3ZNxAD5wl9O2ihsXZEeZnMqMHV48R2pM6IOv0UsXd23bYIvdpV3oK9_8xaAlmHFWhFxU0wny6ejaY0Kas-vs7f8S87bm1YUULN8FwQYeMVU5Wokb3Tc9Zd80Vl2V4X-tixCkM9fNZ9YDz9BDAFzLKb3FU5hTH9UBz3O0XCS9LXDT1SLLnHJTvK_uxCaM3y6pLLua_USfCXyty7AcMfbmAAAAAV9Y204A")
+STRING1 = getenv("STRING_SESSION", "AQAoul8MgVXR_t3AvTwCSY3JbtYiWWDhtB__h2n7LX0HlIeR7CQREoh-TEzgbkZ_dmeoPq1pnmzTggEXJ8--G9bhRYPf9CgiFc9ddFPSvDJrvGL8YJI4j5ySkeim_PN_Diye6xf8s5C83WN6-q5mD1eabc5WC_NrZELyX94FJ1zBlomsMiHTiA5DjTDN2zB3TvWwdeyqMl-U4J7AlBaiQJRW9o_mPfeJ1xTks8jvHK6uJ_66yYdPnLRyeSndub4ylpwTp3QwY4ZKMagscQ3CFUK6a9u7Y0uM4j6KvP4BLyfRpr6jEFLVFulnBQKOEpqkR5XRsDmazVvRPGKvwHn4ide9AAAAAV_xZxUA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/7753e6b9852ea5c7ef074.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/1cd2d234cfb7defd9b8cd.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/7753e6b9852ea5c7ef074.jpg",
+    "https://te.legra.ph/file/4b6712e9ce3a356e62c9c.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
